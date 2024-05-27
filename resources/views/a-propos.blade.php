@@ -48,15 +48,14 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <h1 class="display-4">À propos de Sopera Milomboko</h1>
-                    <p class="lead">Bienvenue à Sopera Milomboko, où la tradition rencontre le confort moderne.</p>
+                    <p class="lead">Bienvenue à Sopera Milomboko, où la tradition rencontre le confortabilite.</p>
                 </div>
             </div>
 
             <!-- History Section -->
             <div class="row mt-4">
                 <div class="col-md-6">
-                    <img src="https://via.placeholder.com/500" class="img-fluid rounded"
-                        alt="Image de l'hôtel et restaurant">
+                    <img src="{{ asset('images/ch1.jpg') }}" class="img-fluid rounded" alt="Image de l'hôtel et restaurant">
                 </div>
                 <div class="col-md-6">
                     <h2>Notre Histoire</h2>
@@ -71,10 +70,9 @@
             <div class="row mt-4">
                 <div class="col-12">
                     <h2>Nos Services</h2>
-                    <ul>
+                    <ul class="unstailed">
                         <li>Chambres confortables et bien équipées</li>
-                        <li>Restaurant offrant une cuisine locale et internationale</li>
-                        <li>Salles de conférence et espaces pour événements</li>
+                        <li>Restaurant offrant une cuisine locale </li>
                         <li>Wi-Fi gratuit</li>
                         <li>Service de navette</li>
                     </ul>
@@ -90,62 +88,28 @@
                 </div>
             </div>
 
-            <!-- Testimonials Section -->
-            <div class="row mt-4">
-                <div class="col-12">
-                    <h2>Témoignages de nos clients</h2>
-                    <blockquote class="blockquote">
-                        <p class="mb-0">"Un séjour incroyable! Le service était impeccable et la nourriture délicieuse.
-                            Nous reviendrons certainement!"</p>
-                        <footer class="blockquote-footer">Jean Dupont, <cite title="Source Title">Paris, France</cite>
-                        </footer>
-                    </blockquote>
-                    <blockquote class="blockquote">
-                        <p class="mb-0">"L'endroit parfait pour se détendre et profiter de la nature. Les chambres sont
-                            très confortables et le personnel est très accueillant."</p>
-                        <footer class="blockquote-footer">Marie Dubois, <cite title="Source Title">Lyon, France</cite>
-                        </footer>
-                    </blockquote>
-                </div>
-            </div>
+
 
             <!-- Gallery Section -->
             <div class="row mt-4">
                 <div class="col-12">
                     <h2>Galerie de photos</h2>
                     <div class="row">
-                        <div class="col-md-4">
-                            <img src="https://via.placeholder.com/300" class="img-fluid rounded mb-3" alt="Photo 1">
+                        <div class="col-4">
+                            <img src="{{ asset('images/ma1.jpeg') }}" class="img-fluid rounded mb-3" alt="Photo 1">
                         </div>
-                        <div class="col-md-4">
-                            <img src="https://via.placeholder.com/300" class="img-fluid rounded mb-3" alt="Photo 2">
+                        <div class="col-4">
+                            <img src="{{ asset('images/ma1.jpeg') }}" class="img-fluid rounded mb-3" alt="Photo 2">
                         </div>
-                        <div class="col-md-4">
-                            <img src="https://via.placeholder.com/300" class="img-fluid rounded mb-3" alt="Photo 3">
+                        <div class="col-4">
+                            <img src="{{ asset('images/ma1.jpeg') }}" class="img-fluid rounded mb-3" alt="Photo 3">
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Events Section -->
-            <div class="row mt-4">
-                <div class="col-12">
-                    <h2>Événements spéciaux</h2>
-                    <p>Nous organisons régulièrement des événements spéciaux, tels que des soirées à thème, des concerts en
-                        direct, et des dégustations de vin. Consultez notre calendrier pour connaître les prochaines dates
-                        et événements.</p>
-                </div>
-            </div>
 
-            <!-- Activities Section -->
-            <div class="row mt-4">
-                <div class="col-12">
-                    <h2>Activités à proximité</h2>
-                    <p>Profitez des nombreuses activités disponibles autour de notre hôtel et restaurant. Que vous aimiez
-                        les randonnées, les visites culturelles ou les sports nautiques, il y a quelque chose pour tout le
-                        monde à Sopera Milomboko.</p>
-                </div>
-            </div>
+
 
             <!-- Contact Section -->
             <div class="row mt-4">
