@@ -68,7 +68,7 @@
                                                                 href="{{ route('types.edit', $type->id) }}"><i
                                                                     class="fa fa-fw fa-edit"></i> Edit</a></li>
                                                         <li>
-                                                            <form action="{{ route('types.destroy', $type->id) }}"
+                                                            {{-- <form action="{{ route('types.destroy', $type->id) }}"
                                                                 method="POST">
                                                                 @csrf
                                                                 @method('DELETE')
@@ -76,7 +76,7 @@
                                                                     onclick="return confirm('Are you sure you want to delete this item?')">
                                                                     <i class="fa fa-fw fa-trash"></i> Delete
                                                                 </button>
-                                                            </form>
+                                                            </form> --}}
                                                         </li>
                                                     </ul>
                                                 </div>

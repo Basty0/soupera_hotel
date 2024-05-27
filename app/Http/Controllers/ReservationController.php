@@ -41,8 +41,8 @@ class ReservationController extends Controller
      */
     public function index()
     {
-        $reservations = Reservation::where('statut','en_cour')->paginate(10);
-        $reservationss = Reservation::where('statut','fin')->paginate(10);
+        $reservations = Reservation::where('statut','en_cour')->orderByDesc('id')->paginate(20);
+        $reservationss = Reservation::where('statut','fin')->orderByDesc('id')->paginate(30);
         $chambre = Chambre::where('disponibilite','disponible')->get();
 
         return view('reservation.index', compact('reservationss','reservations','chambre'))
