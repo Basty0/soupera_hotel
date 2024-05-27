@@ -19,11 +19,11 @@
         <div style="height: 300px" class="row align-items-center text-center img-bg border rounded-3 m-md-2 mx-4">
             <h1 class="">Sopera Milomboko</h1>
         </div>
-        <div class="container">
+        <div class="">
 
             <div class="row justify-content-center">
                 <a href="#"
-                    class="col-md-4 col-5 bg-gradient-info text-white m-2 p-5 border shadow text-center rounded-4"
+                    class="col-md-4 col-12 bg-gradient-info text-white m-2 p-5 border shadow text-center rounded-4"
                     data-bs-toggle="modal" data-bs-target="#messagesModal">
                     <span class="fs-3">Messages</span>
                     @if ($unreadMessages > 0)
@@ -31,7 +31,7 @@
                     @endif
                 </a>
                 <a href="#"
-                    class="col-md-4 col-5 bg-gradient-secondary text-white m-2 p-5 border shadow text-center rounded-4"
+                    class="col-md-4 col-12 bg-gradient-secondary text-white m-2 p-5 border shadow text-center rounded-4"
                     data-bs-toggle="modal" data-bs-target="#reservationsModal">
                     <span class="fs-3">Réservations</span>
                     @if ($unreadReservations > 0)

@@ -162,7 +162,7 @@
                                     <td class="bg-gradient-dark p-2 rounded-5 text-white">
                                         {{ $reservation->designation }}</td>
                                 @else
-                                    <td class="bg-gradient-danger rounded-5 p-2 text-white">
+                                    <td class="bg-gradient-success rounded-5 p-2 text-white">
                                         {{ $reservation->designation }}</td>
                                 @endif
                                 @if ($reservation->designation === 'Passent')
