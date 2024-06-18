@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Souper Hotel</title>
+    <title>Sopera Milomboko Hotel</title>
 
     <!-- Inclusion de Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -15,6 +15,69 @@
 
 </head>
 <style>
+    /* HTML: <div class="loader"></div> */
+    .loader {
+        width: 40px;
+        height: 20px;
+        --c: no-repeat radial-gradient(farthest-side, #000 93%, #0000);
+        background:
+            var(--c) 0 0,
+            var(--c) 50% 0,
+            var(--c) 100% 0;
+        background-size: 8px 8px;
+        position: relative;
+        animation: l4-0 1s linear infinite alternate;
+    }
+
+    .loader:before {
+        content: "";
+        position: absolute;
+        width: 8px;
+        height: 12px;
+        background: #000;
+        left: 50%;
+        top: 50%;
+        animation:
+            l4-1 1s linear infinite alternate,
+            l4-2 0.5s cubic-bezier(0, 200, .8, 200) infinite;
+    }
+
+    @keyframes l4-0 {
+        0% {
+            background-position: 0 100%, 50% 0, 100% 0
+        }
+
+        8%,
+        42% {
+            background-position: 0 0, 50% 0, 100% 0
+        }
+
+        50% {
+            background-position: 0 0, 50% 100%, 100% 0
+        }
+
+        58%,
+        92% {
+            background-position: 0 0, 50% 0, 100% 0
+        }
+
+        100% {
+            background-position: 0 0, 50% 0, 100% 100%
+        }
+    }
+
+    @keyframes l4-1 {
+        100% {
+            left: calc(100% - 8px)
+        }
+    }
+
+    @keyframes l4-2 {
+        100% {
+            top: -0.1px
+        }
+    }
+
     body {
         font-family: "Open Sans", sans-serif;
         font-optical-sizing: auto;
@@ -68,12 +131,12 @@
     }
 
     .bg-blur {
-        background: rgb(163, 195, 255)
+        background: rgb(16, 50, 112)
             /* Remplacez 'votre-image.jpg' par le chemin de votre image */
             background-size: cover;
         backdrop-filter: blur(10px);
         /* Applique un flou à l'arrière-plan */
-        -webkit-backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(5px);
         /* Pour les navigateurs WebKit comme Safari */
     }
 
@@ -86,17 +149,19 @@
 
     }
 </style>
-
+<div class="loader text-center"></div>
 
 <body>
+
+
 
     <nav style="background: rgb(119, 4, 27)" class="  navbar navbar-expand-lg ">
         <div class="container text-white ">
             <!-- Logo ou Titre de la Navbar -->
-            <a class="navbar-brand text-white fs-3" href="/">Souper Hôtel</a>
+            <a class="navbar-brand text-white fs-3" href="/">Sopera Hôtel</a>
 
             <!-- Bouton hamburger pour les petits écrans -->
-            <button class="btn d-md-none text-white" type="button" data-bs-toggle="collapse"
+            <button class="btn bg-white d-md-none text-white" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class=" navbar-toggler-icon"></span>
@@ -179,6 +244,17 @@
 
 <script>
     AOS.init();
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const loader = document.querySelector(".loader");
+        const content = document.querySelector(".content");
+
+        window.addEventListener("load", function() {
+            loader.style.display = "none";
+            content.style.display = "block";
+        });
+    });
 </script>
 
 </html>

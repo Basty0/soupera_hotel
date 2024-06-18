@@ -30,9 +30,9 @@
                 <div style="height: 400px"
                     class="justify-content-center align-items-center col-md-3 col-12 bg-blur shadow rounded-4 mt-5 m-4  text-white ">
                     <div class="">
-                        <h5 class="display-4 m-3">Réstaurant Soupera </h5>
-                        <p>Some representative placeholder content for the first slide.voluptates,
-                            delectus similique autem nulla laboriosam? Unde, atque!</p>
+                        <h5 class="display-4 m-3">Restaurant Sopera </h5>
+                        <p>Savourez une cuisine musulmane authentique, fusionnant les saveurs locales et internationales
+                            pour un voyage culinaire unique.</p>
                         <button class=" btn btn-a text-white m-3 p-3 rounded-5">
                             Plus d'information
                         </button>
