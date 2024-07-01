@@ -55,13 +55,14 @@
 
     <div class="container">
 
+
         <div class="my-5">
             <div class="row m-auto">
-                <div class="col-12 text-center mb-3">
+                <div class="col-12 text-center mb-3 ">
 
                 </div>
                 <div data-aos="zoom-in-up" data-aos-duration="1000"
-                    class=" row justify-content-center align-items-center col-md-4 col-12 img-ch rounded-5 img">
+                    class="  row justify-content-center align-items-center col-md-4 col-12 img-ch rounded-5 img">
                     <h2 style="width: 200px" class="bg-blur rounded-5 p-3 border text-center text-white">
                         Nos Chambres
                     </h2>

@@ -56,7 +56,7 @@
 
 
         @foreach ($types as $type)
-            <div class="row p-2 rounded-3 bg-white my-5 shadow">
+            <div class="row p-2 rounded-3 bg-white my-5 shadow hover">
                 <div class="col-md-6 col-12 bg-blur rounded-5">
                     <div class="row d-flex">
                         @foreach ($type->chambres as $chambre)

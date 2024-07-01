@@ -98,7 +98,7 @@
                     class="bi bi-cup-hot fs-5 m-2"></i>
                 Réestaurent</a>
 
-            <a id="users" href="{{-- route('admin.users') --}}" class="p-2 text-white rounded" type="a"><i
+            <a id="users" href="{{ route('users.index') }}" class="p-2 text-white rounded" type="a"><i
                     class="bi bi-people-fill fs-5 m-2"></i>Utilisateur</a>
             <a id="profil" href="{{-- route('admin.profil') --}}" class="p-2 text-white rounded" type="a"><i
                     class="bi bi-person-fill fs-5 m-2"></i>Profil</a>

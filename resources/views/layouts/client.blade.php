@@ -96,6 +96,17 @@
         height: 500px;
         object-fit: cover;
     }
+
+    .hover{
+        transition: 0.5s;
+
+    }
+    .hover:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+
 </style>
 <style>
     .img-bg {

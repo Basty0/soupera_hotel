@@ -52,7 +52,7 @@
         <div class="row">
             @foreach ($plats as $plat)
                 <div class="col-md-6 mb-4">
-                    <div class="card h-100 border-0  shadow rounded-3">
+                    <div class="card hover h-100 border-0  shadow rounded-3">
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <img style="  height: 250px;
